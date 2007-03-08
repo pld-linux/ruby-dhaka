@@ -1,4 +1,5 @@
 Summary:	Parsing library for Ruby
+Summary(pl.UTF-8):	Biblioteka parsująca dla języka Ruby
 Name:		ruby-dhaka
 Version:	0.0.4
 Release:	1
@@ -17,6 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Dhaka is a set of tools for generating tokenizers, parsers and
 evaluators for context-free grammars. It is written solely in Ruby
 with no native extensions and no dependencies.
+
+%description -l pl.UTF-8
+Dhaka to zestaw narzędzi do generacji tokenizerów, parserów i metod
+wykonawczych dla gramatyk bezkontekstowych. Jest napisany wyłącznie
+w języku Ruby, bez natywnych rozszerzeń i zależności.
 
 %prep
 %setup -q -c
