@@ -8,9 +8,8 @@ Group:		Development/Languages
 Source0:	http://rubyforge.org/frs/download.php/15507/dhaka-%{version}.gem
 # Source0-md5:	d02b6c3ba4f44f5144bcbdfc9024e1f9
 URL:		http://dhaka.rubyforge.org/
-BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -21,8 +20,8 @@ with no native extensions and no dependencies.
 
 %description -l pl.UTF-8
 Dhaka to zestaw narzędzi do generacji tokenizerów, parserów i metod
-wykonawczych dla gramatyk bezkontekstowych. Jest napisany wyłącznie
-w języku Ruby, bez natywnych rozszerzeń i zależności.
+wykonawczych dla gramatyk bezkontekstowych. Jest napisany wyłącznie w
+języku Ruby, bez natywnych rozszerzeń i zależności.
 
 %prep
 %setup -q -c
